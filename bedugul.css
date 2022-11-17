@@ -1,0 +1,651 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-image: url(bintang.jpg);
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+}
+
+/* Header */
+.container {
+    width: 1440px;
+    height: 4181px;
+    background-color: #000C03;
+    margin: auto;
+    position: relative;
+}
+.logo {
+    position: absolute;
+    width: 635px;
+    height: 51px;
+    left: 30px;
+    top: 10px;
+}
+.navbar ul {
+   position: absolute;
+   list-style-type: none;
+   width: 726px;
+   height: 54px;
+   left: 357px;
+   top: 60px;
+   text-align: center;
+}
+li {
+    float: left;
+    padding: 10px;
+}
+li a {
+    color: white;
+    padding: 40px;
+    font-size: 20px;
+    text-decoration: none;
+}
+li a:hover {
+    color: #0BC582;
+}
+/* Search */
+.search-box {
+    position: absolute;
+    left: 1130px;
+    top: 60px;
+    height: 40px;
+    background-color: white;
+    display: flex;
+    padding: 1px 15px;
+    border-radius: 50px;
+}
+.search-box .search-icon {
+    font-size: 18px;
+    color: #000C03;
+    line-height: 40px;
+}
+.search-box .search-input {
+    transition: 0.5s;
+    width: 0px;
+    overflow: hidden;
+}
+.search-input .input {
+    border: none;
+    outline: none;
+    background-color: unset;
+    margin-top: -15px;
+    margin-left: -25px;
+    font-weight: bold;
+    font-size: 16px;
+}
+.search-box:hover .search-input{
+    margin-left: 15px;
+    width: 190px;
+}
+/* End Header */
+
+/* Main */
+
+/* Home */
+.home img {
+    position: absolute;
+    width: 1440px;
+    height: 852px;
+    left: 0px;
+    top: 114px;
+}
+.contenthome {
+    color: #FFFFFF;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.4);
+}
+.home h1 {
+    position: absolute;
+    width: 693px;
+    height: 72px;
+    left: 123px;
+    top: 235px;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 75px;
+    letter-spacing: 0.08em;
+}
+.home h2 {
+    position: absolute;
+    width: 619px;
+    height: 90px;
+    left: 127px;
+    top: 330px;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 72px;
+}
+.home p {
+    position: absolute;
+    width: 986px;
+    height: 103px;
+    left: 60px;
+    top: 474px;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 36px;
+    text-align: justify;
+}
+.home .button1 {
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 50px;
+    color: #000C03;
+    text-decoration: none;
+    width: 146px;
+    height: 64px;
+}
+.home .button1:hover {
+    background-color: #0BC582;
+}
+.home .btn-explore {
+    position: absolute;
+    left: 48px;
+    top: 860px;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 64px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+.home .btn-video {
+    position: absolute;
+    left: 208px;
+    top: 860px;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 64px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+/* End Home */
+
+/* About */
+.about img { 
+    position: absolute;
+    width: 1440px;
+    height: 673px;
+    left: 0px;
+    top: 948px;
+    background: #988e8e;
+    border-radius: 5px;
+}
+.about h1 {
+    position: absolute;
+    left: 55px;
+    top: 980px;
+    font-weight: 800;
+    font-size: 36px;
+    line-height: 54px;
+    display: flex;
+    align-items: center;
+    text-shadow: 0px 4px 5px rgb(0, 0, 0);
+    color: #ffffff;
+}
+.about p {
+    position: absolute;
+    width: 570px;
+    height: 490px;
+    left: 55px;
+    top: 1060px;
+    font-weight: 767;
+    font-size: 18px;
+    line-height: 32px;
+    text-align: justify;
+    color: #ffffff;
+}
+.about iframe {
+    position: absolute;
+    width: 651px;
+    height: 673px;
+    left: 790px;
+    top: 948px;
+    border-radius: 0px 5px 5px 0px;
+}
+.about a {
+    text-decoration: none;
+    justify-content: center;
+    position: absolute;
+    width: 190px;
+    height: 42px;
+    left: 55px;
+    top: 1545px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #000C03;
+    background: #719374;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 50px;
+}
+.about a:hover {
+    background-color: #0BC582;
+}
+/* End About */
+
+/* Object */
+.object img {
+    position: absolute;
+    width: 1440px;
+    height: 586px;
+    left: 0px;
+    top: 1623px;
+    background: #719374;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.object h1 {
+    position: absolute;
+    /* width: 265px;
+    height: 58px; */
+    left: 720px;
+    top: 1659px;
+    font-weight: 800;
+    font-size: 36px;
+    line-height: 54px;
+    display: flex;
+    align-items: center;
+    color: #ffffff;
+    text-shadow: 0px 4px 5px rgba(0, 0, 0, 0.25);
+}
+.object p {
+    position: absolute;
+    width: 635px;
+    height: 423px;
+    left: 720px;
+    top: 1717px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 32px;
+    text-align: justify;
+    color: #ffffff;
+}
+.object .cover {
+    position: absolute;
+    width: 662px;
+    height: 586px;
+    left: 0px;
+    top: 1623px;
+    background: url(bedugul4.jpg);
+    animation: slide 20s infinite;
+}
+@keyframes slide {
+    25% {
+        background: url(bedugul1.jpg);
+    }
+    50% {
+        background: url(bedugul2.jpg);
+    }
+    75% {
+        background: url(bedugul5.jpg);
+    }
+    100% {
+        background: url(bedugul4.jpg);
+    }
+}
+/* End Object */
+
+/* Acomodation */
+.acomodation img {
+    position: absolute;
+    width: 1440px;
+    height: 800px;
+    left: 0px;
+    top: 2210px;
+    background: #D9D9D9;
+}
+.acomodation h1 {
+    position: absolute;
+    left: 563px;
+    top: 2260px;
+    font-weight: 800;
+    font-size: 36px;
+    line-height: 54px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #000C03;
+    text-shadow: 0px 4px 5px rgba(0, 0, 0, 0.25);
+}
+.kolom {
+    position: relative;
+    background: #719374;
+    width: 1280px;
+    height: 562px;
+    left: 80px;
+    top: 2337px;
+    column-count: 3;
+    -moz-column-count: 3;
+    -webkit-column-count: 3;
+    justify-content: center;
+    column-gap: 20px;
+    -moz-column-gap: 20px;
+    -webkit-column-gap: 20px;
+    border-radius: 20px 20px 3px 3px;
+}
+.card {
+    width: 414px;
+    height: 480px;
+    background-color: white;
+    border-radius: 0px 0px 20px 20px;
+}
+.acomodation h2 {
+    text-align: center;
+    padding: 8px 0px;
+}
+.acomodation h3 {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+    padding-top: 5px;
+    padding-left: 20px;
+    color: #000C03;
+}
+.price {
+    padding-top: 50px;
+    padding-left: 50px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    color: #000C03;
+}
+.acomodation .star {
+    padding-left: 20px;
+    font-size: 25px;
+}
+.acomodation a {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    color: white;
+    text-decoration: none;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.acomodation a:hover {
+    color: #000C03;
+}
+.hotel .cover {
+    background-image: url(dedanau.jpg);
+    width: 396px;
+    height: 237px;
+    margin: auto;
+}
+.villa .cover {
+    background-image: url(griwood.jpg);
+    width: 396px;
+    height: 237px;
+    margin: auto;
+}
+.guest .cover {
+    background-image: url(lumbung.jpg);
+    width: 396px;
+    height: 237px;
+    margin: auto;
+}
+/* End Acomodation */
+
+/* Contact */
+.contact img {
+    position: absolute;
+    width: 1440px;
+    height: 758px;
+    left: 1px;
+    top: 3003px;
+    background: #719374;
+}
+.contact h1 {
+    position: absolute;
+    width: 179px;
+    height: 71px;
+    left: 631px;
+    top: 3037px;
+    font-weight: 800;
+    font-size: 36px;
+    line-height: 54px;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+    text-shadow: 0px 4px 5px rgba(0, 0, 0, 0.25);
+}
+.contentcontact .cover {
+    position: absolute;
+    width: 600px;
+    height: 758px;
+    left: 0px;
+    top: 3003px;
+    background: url(laut.jpg);
+    animation: slide2 20s infinite;
+}
+@keyframes slide2 {
+    25% {
+        background: url(bedugul1.jpg);
+    }
+    50% {
+        background: url(bintang.jpg);
+    }
+    75% {
+        background: url(laut.jpg);
+    }
+    100% {
+        background: url(bedugul5.jpg);
+    }
+}
+.box-contact {
+    box-sizing: border-box;
+    position: absolute;
+    width: 836px;
+    height: 600px;
+    left: 605px;
+    top: 3110px;
+    border-width: 1px 0px 1px 1px;
+    border-style: solid;
+    border-color: #FFFFFF;
+}
+form {
+    display: inline-block;
+    border: none;
+}
+input,
+textarea {
+    width: 423px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    background-color: white;
+    border: none;
+    display: flex;
+    margin: 15px;
+    padding: 25px;
+    border-radius: 10px;
+}
+button {
+    width: 232px;
+    height: 45px;
+    left: 661px;
+    top: 3611px;
+    color: #000C03;
+    margin-left: 20px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    background: #D9D9D9;
+    border-radius: 30px;
+    border: none;
+}
+button:hover {
+    background-color: #0BC582;
+}
+.contact h2 {
+    position: absolute;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 45px;
+    color: rgb(255, 255, 255);
+}
+.contact h3 {
+    position: absolute;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+    color: white;
+    text-align: justify;
+}
+.c1 {
+    width: 142px;
+    height: 35.14px;
+    left: 1141px;
+    top: 3173.92px;
+}
+.c12 {
+    width: 265px;
+    height: 27.16px;
+    left: 1141px;
+    top: 3223.45px;
+}
+.c2 {
+    width: 173px;
+    height: 42px;
+    left: 1141px;
+    top: 3358px;
+}
+.c21 {
+    width: 265px;
+    height: 101px;
+    left: 1141px;
+    top: 3409px;
+}
+/* End Contact */
+
+/* End Main */
+
+/* Footer */
+.contentfooter {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+}
+.judul-footer {
+    position: absolute;
+    width: 245px;
+    height: 71px;
+    left: 46px;
+    top: 3792px;
+    color: #FFFFFF;
+}
+.isi-judul {
+    position: absolute;
+    width: 245px;
+    height: 136px;
+    left: 46px;
+    top: 3863px;
+    color: rgba(255, 255, 255, 0.5);
+}
+.explore h3 {
+    position: absolute;
+    width: 100px;
+    height: 42px;
+    left: 363px;
+    top: 3790px;
+    color: #FFFFFF;
+}
+.isi-explore {
+    position: absolute;
+    width: 233px;
+    height: 210px;
+    left: 363px;
+    top: 3858px;
+}
+.isi-explore a {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.5);
+    display: block;
+}
+.isi-explore a:hover {
+    color: #0BC582;
+}
+.visit h3 {
+    position: absolute;
+    width: 62px;
+    height: 42px;
+    left: 648px;
+    top: 3792px;
+    color: #FFFFFF;
+}
+.isi-visit {
+    position: absolute;
+    width: 387px;
+    height: 88px;
+    left: 641px;
+    top: 3854px;
+    color: rgba(255, 255, 255, 0.5);
+}
+.business h3 {
+    position: absolute;
+    width: 184px;
+    height: 42px;
+    left: 641px;
+    top: 3947px;
+    color: #FFFFFF;
+}
+.isi-business {
+    position: absolute;
+    width: 334px;
+    height: 89px;
+    left: 641px;
+    top: 3989px;
+    color: rgba(255, 255, 255, 0.5);
+}
+.follow h3 {
+    position: absolute;
+    width: 87px;
+    height: 42px;
+    left: 1198px;
+    top: 3792px;
+    color: #FFFFFF;
+}
+.isi-follow {
+    position: absolute;
+    width: 149px;
+    height: 185px;
+    left: 1198px;
+    top: 3854px;
+    color: rgba(255, 255, 255, 0.5);
+}
+/* End Footer */
+
+/* CopyRight */
+.copyright {
+    position: absolute;
+    width: 1440px;
+    height: 87px;
+    left: 1px;
+    top: 4094px;
+    background: rgba(154, 154, 154, 0.56);   
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    color: #FFFFFF;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.copyright a {
+    text-decoration: none;
+    color: #000C03;
+}
+.copyright a:hover {
+    color: #0BC582;
+}
+.copyright i {
+    padding: 5px;
+    font-size: 24px;
+}
+/* End CopyRight */
